@@ -28,8 +28,6 @@ df['date'] = pd.to_datetime(df['date'])
 print("\nData types after cleaning:")
 print(df.info())
 
-# Exploratory Data Analysis (EDA)
-
 
 df['total_goals'] = df['home_team_goal'] + df['away_team_goal']
 
